@@ -1,0 +1,39 @@
+{
+  "name": "core-ft-async-awareness",
+  "version": "1.0.0",
+  "description": "Async callbacks is the very basics of understanding how to use asyncronous code in JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "test-utils": "mocha ./spec/utils.spec.js",
+    "test-dev": "mocha ./spec/main.spec.js",
+    "test": "mocha ./spec/*.spec.js --bail",
+    "lint": "eslint ./",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northcoders/CORE-FT-async-awareness.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northcoders/CORE-FT-async-awareness/issues"
+  },
+  "homepage": "https://github.com/northcoders/CORE-FT-async-awareness#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "sinon": "^3.2.1"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.1.0",
+    "is-git-url": "^1.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
